@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Admin — Iyad Khattab</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Manrope:wght@600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+<div class="server-warning" data-needs-server>Can't reach the local server — make sure you started it with <code>node server.js</code> in this folder, then reload this page.</div>
+
+<header class="admin-header">
+  <div class="wrap">
+    <div>
+      <h1>Site editor</h1>
+      <div class="sub">Changes save straight to <code>content.json</code> — reload the live site to see them.</div>
+    </div>
+    <a class="admin-live-link" href="index.html" target="_blank">View live site ↗</a>
+  </div>
+  <div class="wrap tabs">
+    <button class="tab-btn active" data-tab="projects">Projects</button>
+    <button class="tab-btn" data-tab="experience">Experience</button>
+  </div>
+</header>
+
+<main class="wrap">
+
+  <!-- PROJECTS -->
+  <section class="panel active" data-panel="projects">
+    <div class="panel-top">
+      <h2>Projects</h2>
+      <button class="btn btn-primary" id="addProjectBtn"><span data-icon="plus"></span> Add project</button>
+    </div>
+    <div id="projectList"></div>
+
+    <div class="form-panel" id="projectFormPanel">
+      <h3 id="projectFormTitle">Add a project</h3>
+      <form id="projectForm">
+        <div class="field-row">
+          <div class="field">
+            <label for="pf-title">Title</label>
+            <input type="text" id="pf-title" name="title" required placeholder="e.g. MailWise AI">
+          </div>
+          <div class="field">
+            <label for="pf-year">Year</label>
+            <input type="text" id="pf-year" name="year" required placeholder="2026">
+          </div>
+        </div>
+
+        <div class="field">
+          <label for="pf-tagline">Tagline</label>
+          <input type="text" id="pf-tagline" name="tagline" placeholder="One line describing the project">
+        </div>
+
+        <div class="field">
+          <label for="pf-summary">Short summary</label>
+          <textarea id="pf-summary" name="summary" placeholder="Shown on the project card — 1-2 sentences" style="min-height:60px"></textarea>
+        </div>
+
+        <div class="field">
+          <label for="pf-description">Full description</label>
+          <textarea id="pf-description" name="description" placeholder="Shown on the project's case-study page. Separate paragraphs with a blank line."></textarea>
+          <div class="hint">Separate paragraphs with a blank line — each becomes its own paragraph on the project page.</div>
+        </div>
+
+        <div class="field">
+          <label for="pf-stack">Tech stack</label>
+          <input type="text" id="pf-stack" name="stack" placeholder="FastAPI, Docker, React">
+          <div class="hint">Comma-separated.</div>
+        </div>
+
+        <div class="field-row">
+          <div class="field">
+            <label for="pf-github">GitHub link</label>
+            <input type="url" id="pf-github" name="github" placeholder="https://github.com/you/repo">
+          </div>
+          <div class="field">
+            <label for="pf-live">Live project link</label>
+            <input type="url" id="pf-live" name="live" placeholder="https://your-project.com">
+          </div>
+        </div>
+
+        <div class="field field-check">
+          <input type="checkbox" id="pf-featured" name="featured">
+          <label for="pf-featured" style="margin:0">Feature this project (shows large at the top)</label>
+        </div>
+
+        <div class="field">
+          <label>Screenshots</label>
+          <div class="hint" style="margin-top:0;margin-bottom:10px">First image is the cover shown on the project card. Drag to reorder isn't supported yet — remove and re-add to change order.</div>
+          <div class="image-preview" id="imagePreview"></div>
+        </div>
+
+        <div class="form-actions">
+          <button type="submit" class="btn btn-primary">Save project</button>
+          <button type="button" class="btn btn-ghost" id="cancelProjectBtn">Cancel</button>
+          <button type="button" class="icon-btn danger" id="deleteProjectBtn" title="Delete project"><span data-icon="trash"></span></button>
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section class="panel" data-panel="experience">
+    <div class="panel-top">
+      <h2>Experience</h2>
+      <button class="btn btn-primary" id="addExpBtn"><span data-icon="plus"></span> Add experience</button>
+    </div>
+    <div id="expList"></div>
+
+    <div class="form-panel" id="expFormPanel">
+      <h3 id="expFormTitle">Add an experience entry</h3>
+      <form id="expForm">
+        <div class="field-row">
+          <div class="field">
+            <label for="ef-org">Organization</label>
+            <input type="text" id="ef-org" name="org" required placeholder="e.g. CIB">
+          </div>
+          <div class="field">
+            <label for="ef-year">Year</label>
+            <input type="text" id="ef-year" name="year" required placeholder="2026">
+          </div>
+        </div>
+        <div class="field">
+          <label for="ef-role">Role</label>
+          <input type="text" id="ef-role" name="role" required placeholder="e.g. Internship">
+        </div>
+        <div class="field">
+          <label for="ef-description">Description</label>
+          <textarea id="ef-description" name="description" placeholder="What you did there" style="min-height:70px"></textarea>
+        </div>
+        <div class="form-actions">
+          <button type="submit" class="btn btn-primary">Save entry</button>
+          <button type="button" class="btn btn-ghost" id="cancelExpBtn">Cancel</button>
+          <button type="button" class="icon-btn danger" id="deleteExpBtn" title="Delete entry"><span data-icon="trash"></span></button>
+        </div>
+      </form>
+    </div>
+  </section>
+
+</main>
+
+<div id="toast" class="toast"></div>
+
+<script src="assets/icons.js"></script>
+<script src="assets/admin.js"></script>
+</body>
+</html>

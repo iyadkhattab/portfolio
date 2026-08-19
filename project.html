@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Project — Iyad Khattab</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Manrope:wght@600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+<div class="server-warning" data-needs-server>Can't reach the local server — make sure you started it with <code>node server.js</code> in this folder, then reload this page.</div>
+
+<nav class="nav">
+  <div class="wrap nav-inner">
+    <a href="index.html" class="nav-name">Iyad Khattab</a>
+    <div class="nav-links">
+      <a href="index.html#about">About</a>
+      <a href="index.html#projects">Projects</a>
+      <a href="index.html#experience">Experience</a>
+      <a href="index.html#contact">Contact</a>
+      <a href="#" class="btn btn-ghost" data-cv>Download CV</a>
+      <button class="theme-toggle" data-theme-toggle aria-label="Toggle color theme">
+        <span data-icon="sun" class="sun"></span>
+        <span data-icon="moon" class="moon"></span>
+      </button>
+    </div>
+    <button class="nav-burger" aria-label="Open menu"><span></span></button>
+  </div>
+</nav>
+
+<div class="mobile-menu">
+  <a href="index.html#about">About</a>
+  <a href="index.html#projects">Projects</a>
+  <a href="index.html#experience">Experience</a>
+  <a href="index.html#contact">Contact</a>
+</div>
+
+<main data-project-detail>
+  <section class="pd-hero">
+    <div class="wrap">
+      <a href="index.html#projects" class="pd-back" data-pd-back></a>
+      <h1 class="pd-title" data-pd-title></h1>
+      <p class="pd-tagline" data-pd-tagline></p>
+
+      <div class="pd-meta">
+        <div class="item">
+          <div class="label">Year</div>
+          <div class="value mono" data-pd-year></div>
+        </div>
+        <div class="item">
+          <div class="label">Path</div>
+          <div class="value mono" data-pd-path></div>
+        </div>
+        <div class="item">
+          <div class="label">Stack</div>
+          <div class="stack-tags" data-pd-stack></div>
+        </div>
+      </div>
+
+      <div class="pd-links" data-pd-links></div>
+
+      <div class="pd-cover" data-pd-cover></div>
+    </div>
+  </section>
+
+  <section class="pd-overview">
+    <div class="wrap" data-pd-overview></div>
+  </section>
+
+  <section class="pd-gallery">
+    <div class="wrap">
+      <div class="gallery-grid" data-pd-gallery></div>
+    </div>
+  </section>
+
+  <section class="pd-related">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <div class="eyebrow">more work</div>
+        <h2>Other projects</h2>
+      </div>
+      <div class="projects-list" data-pd-related></div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap footer-inner">
+    <span>&copy; <span id="year"></span> Iyad Khattab</span>
+    <div class="footer-links">
+      <a href="index.html#about">About</a>
+      <a href="index.html#projects">Projects</a>
+      <a href="index.html#contact">Contact</a>
+    </div>
+  </div>
+</footer>
+
+<div class="lightbox">
+  <button class="lightbox-close" aria-label="Close image"><span data-icon="close"></span></button>
+  <img src="" alt="Enlarged screenshot">
+</div>
+
+<script src="assets/icons.js"></script>
+<script src="assets/app.js"></script>
+</body>
+</html>

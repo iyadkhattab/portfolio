@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Iyad Khattab — Software &amp; AI Engineer</title>
+<meta name="description" content="Iyad Khattab — Computer Engineering student building software, AI, and data-driven applications.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Manrope:wght@600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+<div class="server-warning" data-needs-server>Can't reach the local server — make sure you started it with <code>node server.js</code> in this folder, then reload this page.</div>
+
+<nav class="nav">
+  <div class="wrap nav-inner">
+    <a href="index.html" class="nav-name">Iyad Khattab</a>
+    <div class="nav-links">
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#experience">Experience</a>
+      <a href="#contact">Contact</a>
+      <a href="#" class="btn btn-ghost" data-cv>Download CV</a>
+      <button class="theme-toggle" data-theme-toggle aria-label="Toggle color theme">
+        <span data-icon="sun" class="sun"></span>
+        <span data-icon="moon" class="moon"></span>
+      </button>
+    </div>
+    <button class="nav-burger" aria-label="Open menu"><span></span></button>
+  </div>
+</nav>
+
+<div class="mobile-menu">
+  <a href="#about">About</a>
+  <a href="#projects">Projects</a>
+  <a href="#experience">Experience</a>
+  <a href="#contact">Contact</a>
+  <a href="#" data-cv>Download CV</a>
+</div>
+
+<header class="hero">
+  <div class="hero-grid"></div>
+  <div class="wrap hero-inner">
+    <div class="hero-kicker eyebrow">available for internships — remote or Cairo-based</div>
+    <h1>Iyad Khattab</h1>
+    <p class="hero-lead" data-site-role></p>
+    <div class="hero-actions">
+      <a href="#projects" class="btn btn-primary">View my work</a>
+      <a href="#" class="btn btn-ghost" data-cv>Download CV</a>
+    </div>
+    <div class="hero-social">
+      <a href="#" data-gh><span data-icon="github"></span> GitHub</a>
+      <a href="#" data-li><span data-icon="linkedin"></span> LinkedIn</a>
+      <a href="#" data-mail><span data-icon="mail"></span> Email</a>
+    </div>
+
+    <div class="hero-console" aria-hidden="true">
+      <div class="hero-console-bar"><span></span><span></span><span></span></div>
+      <div class="hero-console-body">
+        <div class="line"><span class="prompt">$</span> whoami</div>
+        <div class="line" data-typed="iyad — computer engineer, building AI systems"></div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<section id="about">
+  <div class="wrap about-grid">
+    <div class="section-head reveal">
+      <div class="eyebrow">about</div>
+      <h2>Building software. Exploring intelligence.</h2>
+    </div>
+    <div class="about-body reveal">
+      <p data-site-intro></p>
+      <div class="about-facts">
+        <div class="about-fact">
+          <div class="label">Education</div>
+          <div class="value">B.Sc. Computer Engineering (MET), German University in Cairo</div>
+        </div>
+        <div class="about-fact">
+          <div class="label">Coursework</div>
+          <div class="value">Databases, Operating Systems, Computer Architecture, Software Engineering</div>
+        </div>
+        <div class="about-fact">
+          <div class="label">Interests</div>
+          <div class="value">Agentic AI systems, backend engineering, applied machine learning</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="skills">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <div class="eyebrow">stack</div>
+      <h2>What I build with</h2>
+    </div>
+    <div class="skills-list" data-skills></div>
+  </div>
+</section>
+
+<section id="projects">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <div class="eyebrow">selected work</div>
+      <h2>Projects</h2>
+      <p>A handful of things I've built end to end — from the AI systems to the unglamorous plumbing underneath them.</p>
+    </div>
+    <div class="projects-list" data-projects></div>
+  </div>
+</section>
+
+<section id="experience">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <div class="eyebrow">experience</div>
+      <h2>Where I've worked</h2>
+    </div>
+    <div class="timeline" data-experience></div>
+  </div>
+</section>
+
+<section id="contact" class="contact">
+  <div class="wrap contact-inner">
+    <h2>Let's build something worth shipping.</h2>
+    <div class="contact-cta">
+      <a href="#" class="btn btn-primary" data-mail>Say hello ↗</a>
+      <div class="hero-social" style="margin-top:4px">
+        <a href="#" data-gh><span data-icon="github"></span> GitHub</a>
+        <a href="#" data-li><span data-icon="linkedin"></span> LinkedIn</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap footer-inner">
+    <span>&copy; <span id="year"></span> Iyad Khattab</span>
+    <div class="footer-links">
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </div>
+</footer>
+
+<script src="assets/icons.js"></script>
+<script src="assets/app.js"></script>
+</body>
+</html>

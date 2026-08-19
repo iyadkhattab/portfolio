@@ -1,0 +1,541 @@
+{
+  "site": {
+    "name": "Iyad Khattab",
+    "role": "Computer Engineering student building software, AI, and data-driven applications.",
+    "intro": "Computer Engineering student at the German University in Cairo (GUC) with a 1.38 GPA (A−), hands-on experience in software\ndevelopment, machine learning, data analysis, and AI systems. Proficient in Java, Python, C, JavaScript, SQL, and Flutter, with experience\nbuilding full-stack applications, ML pipelines, and AI-powered automation systems. Interested in Software Engineering, Data Science,\nMachine Learning, and Agentic AI. \n",
+    "email": "iyadahmedkhattab@gmail.com",
+    "github": "https://github.com/",
+    "linkedin": "https://linkedin.com/",
+    "cv": "/assets/uploads/CV.pdf",
+    "location": "New Cairo, Egypt"
+  },
+  "projects": [
+    {
+      "id": "dld-security-digital-logic-circuit",
+      "title": "DLD Security Digital Logic Circuit",
+      "path": "~/projects/dld-security-digital-logic-circuit",
+      "year": "2024 · 2nd Semester",
+      "tagline": "Designed and physically implemented a NAND-based digital encryption and decryption circuit.",
+      "summary": "A hardware-based digital logic project involving the design, simplification, and physical implementation of an encryption/decryption circuit using NAND gates, DIP switches, a BCD decoder, and a seven-segment display.",
+      "description": [
+        "ecurity Digital Logic Circuit was a multi-stage Digital Logic Design project focused on designing and physically implementing a simple encryption/decryption system using fundamental digital logic concepts.",
+        "The project began by defining the required encryption and decryption mappings through truth tables. Karnaugh maps were then used to simplify the Boolean expressions for each output bit before converting the resulting logic into NAND-gate-only implementations.",
+        "The design was subsequently translated into physical hardware using DIP switches, a BCD decoder, resistors, and a seven-segment display. The final circuit connected the NAND-based encryption/decryption logic to the display system, allowing the resulting encoded values to be verified directly through hardware.",
+        "The project provided hands-on experience in moving from Boolean logic and mathematical simplification → logic-gate implementation → physical digital hardware."
+      ],
+      "stack": [
+        "Digital Logic Design · NAND Gates · Karnaugh Maps · Boolean Algebra · Breadboard · DIP Switches · BCD Decoder · 7-Segment Display"
+      ],
+      "featured": false,
+      "images": [
+        "assets/uploads/1787104476666-whatsapp-image-2026-08-19-at-4-52-36-am.jpg"
+      ],
+      "links": {
+        "github": "",
+        "live": ""
+      }
+    },
+    {
+      "id": "audio-processing-noise-cancellation",
+      "title": "Audio Processing & Noise Cancellation",
+      "path": "~/projects/audio-processing-noise-cancellation",
+      "year": "2025 · 4th Semester",
+      "tagline": "Generated piano melodies in Python and developed frequency-domain noise cancellation using FFT analysis.",
+      "summary": "A Python-based audio signal processing project that generates piano melodies from sinusoidal signals, introduces simulated noise, analyzes signals in the frequency domain using FFT, and removes unwanted frequencies through frequency-domain filtering.",
+      "description": [
+        "Audio Processing & Noise Cancellation was a Python-based Signal and System Theory project focused on generating, analyzing, and processing audio signals.",
+        "The project began by generating individual piano notes as sinusoidal signals using their corresponding frequencies from the 3rd and 4th piano octaves. Multiple note pairs were then combined to create a complete musical signal that could be visualized and played as audio.",
+        "To simulate real-world interference, sinusoidal noise components at randomly selected frequencies were added to the generated song. The noisy signal was then transformed into the frequency domain using the Fast Fourier Transform (FFT), allowing the dominant frequency components associated with the noise to be identified.",
+        "After detecting the unwanted frequencies, the corresponding frequency components were filtered out before transforming the signal back into the time domain. The resulting signal was then compared with the original and played back to evaluate the effectiveness of the noise cancellation process.",
+        "The project provided practical experience with digital signal generation, Fourier analysis, frequency-domain processing, visualization, and audio manipulation using Python."
+      ],
+      "stack": [
+        "Python · NumPy · Matplotlib · SciPy · SoundDevice · FFT · Digital Signal Processing"
+      ],
+      "featured": false,
+      "images": [
+        "assets/uploads/1787104848548-whatsapp-image-2026-08-19-at-5-00-47-am.jpg"
+      ],
+      "links": {
+        "github": "",
+        "live": ""
+      }
+    },
+    {
+      "id": "band-pass-band-stop-filter-design",
+      "title": "Band-Pass / Band-Stop Filter Design",
+      "path": "~/projects/band-pass-band-stop-filter-design",
+      "year": "2025 · 4th Semester",
+      "tagline": "Designed, simulated, and physically implemented an analog frequency-selective filter.",
+      "summary": "Designed and implemented an analog filter by selecting component values, validating its frequency response through PSpice simulation, and testing the physical circuit using a breadboard and oscilloscope.",
+      "description": [
+        "Analog Filter Design & Hardware Implementation was an Electric Circuits II project focused on the design and physical implementation of a frequency-selective analog filter.",
+        "The project involved selecting appropriate resistor and capacitor values to achieve a desired frequency response while maintaining practical component values for hardware implementation. The designed circuit was first simulated in PSpice, where its frequency response was analyzed using AC sweep simulations and its behavior was evaluated at frequencies below, at, and above the target frequency.",
+        "After validating the simulation results, the circuit was physically constructed on a breadboard using an operational amplifier, resistors, capacitors, and jumper connections. The hardware implementation was then tested using a function generator and oscilloscope to measure the input and output signals and verify the filter's frequency-selective behavior.",
+        "The project provided practical experience in analog circuit design, frequency-response analysis, circuit simulation, hardware prototyping, and experimental validation."
+      ],
+      "stack": [
+        "PSpice · LM741/LM324 · Breadboard · Oscilloscope · Function Generator · Resistors · Capacitors"
+      ],
+      "featured": false,
+      "images": [
+        "assets/uploads/1787105010009-whatsapp-image-2026-08-19-at-5-01-38-am-1.jpg",
+        "assets/uploads/1787105010019-whatsapp-image-2026-08-19-at-5-01-38-am-2.jpg",
+        "assets/uploads/1787105010176-whatsapp-image-2026-08-19-at-5-01-38-am.jpg",
+        "assets/uploads/1787105010189-whatsapp-image-2026-08-19-at-5-01-39-am-1.jpg",
+        "assets/uploads/1787105010195-whatsapp-image-2026-08-19-at-5-01-39-am-2.jpg",
+        "assets/uploads/1787105010206-whatsapp-image-2026-08-19-at-5-01-39-am.jpg"
+      ],
+      "links": {
+        "github": "",
+        "live": ""
+      }
+    },
+    {
+      "id": "jackaroo-game-engine",
+      "title": "Jackaroo — Game Engine",
+      "path": "~/projects/jackaroo-game-engine",
+      "year": "2025 · 4th Semester",
+      "tagline": "A strategic board-game engine built in Java with complex game logic and CPU opponents.",
+      "summary": "Developed a complete Java game engine for a customized single-player Jackaroo experience against three CPU players, implementing card mechanics, marble movement, collisions, and turn-based gameplay.",
+      "description": [
+        "Developed a complete game engine for a customized version of Jackaroo as part of the Computer Programming Lab at the German University in Cairo.",
+        "Implemented the core game architecture including the board, players, CPU opponents, marbles, cards, deck, safe zones, traps, firepit, turn management, rounds, and win conditions.",
+        "Built complex gameplay logic for marble movement, collision detection, fielding, swapping, burning, saving, card discarding, and special card behaviors while enforcing the game's movement and interaction rules.",
+        "Applied object-oriented programming principles including inheritance, polymorphism, abstraction, interfaces, encapsulation, collections, and custom exception handling to create a modular and maintainable game engine."
+      ],
+      "stack": [
+        "Java",
+        "Object-Oriented Programming",
+        "Inheritance",
+        "Polymorphism",
+        "Interfaces",
+        "Exception Handling",
+        "Java Collections"
+      ],
+      "featured": false,
+      "images": [
+        "assets/uploads/1787105262568-whatsapp-image-2026-08-19-at-5-07-44-am.jpg"
+      ],
+      "links": {
+        "github": "",
+        "live": ""
+      }
+    },
+    {
+      "id": "basic-computer-cpu-control-unit",
+      "title": "Basic Computer & CPU Control Unit",
+      "path": "~/projects/basic-computer-cpu-control-unit",
+      "year": "2025 · 4th Semester",
+      "tagline": "Designed and simulated a basic computer architecture and its control unit using Logisim.",
+      "summary": "Built a simplified 16-bit computer from the ground up, implementing a shared-bus architecture, registers, RAM, ALU operations, and a custom control unit to execute assembly instructions.",
+      "description": [
+        "Designed and implemented a simplified 16-bit basic computer architecture using Logisim as part of the Computer Organization and Systems Programming course at the German University in Cairo.",
+        "Built the core hardware components including a 128×16 RAM, common system bus, Address Register (AR), Data Register (DR), Accumulator (AC), Temporary Register (TR), Program Counter (PC), and Instruction Register (IR).",
+        "Designed the ALU to support arithmetic and logical operations including addition, multiplication, AND, data transfer, and complementation, with dedicated control signals for each operation.",
+        "Developed the CPU control unit using decoders, a sequence counter, and logic gates to generate the required control signals for each instruction and clock cycle.",
+        "Implemented the instruction cycle and control logic for LDA, ADD, AND, STA, ISZ, BUN, and a custom MUL instruction, allowing the simulated computer to execute an assembly program involving arithmetic operations, memory access, branching, and loops.",
+        "Tested the architecture with different input values and verified the resulting memory and register states across individual micro-operation and timing cycles."
+      ],
+      "stack": [
+        "Logisim",
+        "Digital Logic",
+        "Computer Architecture",
+        "CPU Design",
+        "RTL",
+        "ALU",
+        "RAM",
+        "Assembly",
+        "Control Unit",
+        "Registers",
+        "Micro-operations"
+      ],
+      "featured": false,
+      "images": [
+        "assets/uploads/1787107398256-screenshot-2026-08-19-054111.png",
+        "assets/uploads/1787107398267-screenshot-2026-08-19-054120.png",
+        "assets/uploads/1787107398271-screenshot-2026-08-19-054131.png"
+      ],
+      "links": {
+        "github": "https://github.com/iyadkhattab/Basic-Computer-CPU-Control-Unit",
+        "live": ""
+      }
+    },
+    {
+      "id": "prolog-and-haskel-projects",
+      "title": "Prolog and haskel projects",
+      "path": "~/projects/prolog-and-haskel-projects",
+      "year": "2025 · 4th Semester",
+      "tagline": "Exploring logic and functional programming through scheduling and graph algorithms",
+      "summary": "Implemented two programming-language projects using Prolog and Haskell, covering constraint-based university scheduling and shortest-path railway network analysis with Dijkstra’s algorithm.\n\nFull description",
+      "description": [
+        "Project 1 — Class Scheduling (Prolog)",
+        "Developed a Prolog-based university course scheduling system that generates valid schedules for students while satisfying constraints such as avoiding course clashes and limiting the number of study days per week. Implemented predicates for generating individual and university-wide schedules, validating clashes, calculating study days, and identifying common assembly hours.",
+        "Project 2 — Railway Network (Haskell)",
+        "Developed a railway network represented as a weighted directed adjacency matrix and implemented Dijkstra’s shortest-path algorithm to calculate the minimum traversal cost between stations. Built a recursive priority queue data structure and implemented network generation, edge modification, source initialization, and shortest-path computation.",
+        "Key concepts demonstrated: logic programming, functional programming, recursion, constraint satisfaction, graph representation, priority queues, and shortest-path algorithms."
+      ],
+      "stack": [
+        "Prolog",
+        "Haskell",
+        "Functional Programming",
+        "Logic Programming",
+        "Dijkstra’s Algorithm",
+        "Graph Algorithms",
+        "Data Structures"
+      ],
+      "featured": false,
+      "images": [],
+      "links": {
+        "github": "",
+        "live": ""
+      }
+    },
+    {
+      "id": "smart-self-driving-car",
+      "title": "Smart Self-Driving Car",
+      "path": "~/projects/smart-self-driving-car",
+      "year": "2025 · 5th Semester",
+      "tagline": "A digital control system that detects lane deviation, obstacles, and gas leakage",
+      "summary": "Designed and implemented a smart self-driving car system that follows a designated lane, detects obstacles, and responds to gas leakage with automatic stopping, visual alerts, and an audible warning.",
+      "description": [
+        "Smart Car — Digital System Design Project",
+        "Designed and implemented a digital smart-car system capable of autonomously responding to multiple environmental conditions. The car uses sensors to follow a designated lane and continuously monitors its surroundings for potential hazards.",
+        "A lane-detection sensor identifies when the car drifts outside its designated lane and triggers an “ALERT” warning on a 7-segment display. An obstacle-detection sensor monitors the path ahead and automatically stops the car when an obstacle is detected.",
+        "The system also incorporates gas-leakage detection. When gas leakage is detected, the car immediately stops, activates a red warning LED, and produces an audible warning signal.",
+        "The project integrated sensors, digital logic, control signals, visual indicators, audio output, and a moving mechanism into a single autonomous safety system.",
+        "Tech stack"
+      ],
+      "stack": [
+        "Digital Logic",
+        "Digital System Design",
+        "Sensors",
+        "7-Segment Display",
+        "LEDs",
+        "Sound Device",
+        "Digital Circuits",
+        "Embedded Systems"
+      ],
+      "featured": false,
+      "images": [
+        "assets/uploads/1787107881127-whatsapp-image-2026-08-19-at-5-51-13-am-1.jpg",
+        "assets/uploads/1787107881134-whatsapp-image-2026-08-19-at-5-51-13-am.jpg"
+      ],
+      "links": {
+        "github": "",
+        "live": ""
+      }
+    },
+    {
+      "id": "university-hr-management-system",
+      "title": "University HR Management System",
+      "path": "~/projects/university-hr-management-system",
+      "year": "2025 · 5th Semester",
+      "tagline": "Full-stack HR management system with automated payroll, attendance, and multi-level leave workflows.",
+      "summary": "A full-stack HR management system built with SQL Server and a web application, designed to manage employees, attendance, payroll, leaves, deductions, performance evaluations, and organizational workflows.",
+      "description": [
+        "⭐ Key features\nComplex relational database designed for university-wide HR management.\nImplemented 40+ SQL views, stored procedures, and functions for employee management and business operations.\nBuilt automated attendance and payroll processing, including overtime bonuses, missing-hour/day deductions, unpaid-leave deductions, and salary calculations.\nImplemented a multi-level leave approval workflow involving HR, Deans, Vice-Deans, and the President.\nAdded business-rule validation for annual, accidental, medical, unpaid, and compensation leaves.\nDeveloped employee and HR authentication functions with role-specific functionality.\nCreated reporting views for employee profiles, departmental headcount, performance, rejected medical leaves, and attendance.\nDeveloped a web interface allowing Admins, Academic Employees, and HR Employees to interact with the database without directly modifying SQL.\nIntegrated the different application components into a single navigable web application with success/error feedback.\nImplemented database administration utilities for table creation, clearing, dropping, and procedure/function/view management."
+      ],
+      "stack": [
+        "SQL Server · T-SQL · Stored Procedures · Functions · Views · ASP.NET / Web Application · Database Design · React  · Nodejs"
+      ],
+      "featured": false,
+      "images": [
+        "assets/uploads/1787108436811-whatsapp-image-2026-08-19-at-6-00-34-am.jpg"
+      ],
+      "links": {
+        "github": "",
+        "live": ""
+      }
+    },
+    {
+      "id": "travel-destination-web-application",
+      "title": "Travel Destination Web Application",
+      "path": "~/projects/travel-destination-web-application",
+      "year": "2025 · 5th Semester",
+      "tagline": "Full-stack travel platform built with Node.js, Express, and MongoDB using client-server architecture.",
+      "summary": "Developed a client-server travel website where users can register, authenticate, search destinations, browse categories, and maintain personalized want-to-go lists. Implemented server-side routing, session-based authentication, MongoDB data persistence, and dynamic EJS pages.",
+      "description": [
+        "Key features\nUser registration and credential-based authentication\nSession management using Express-Session for multiple users\nDestination browsing through categorized pages\nDynamic destination search with partial keyword matching\nPersonalized Want-to-Go lists stored in MongoDB\nDuplicate destination prevention\nDynamic EJS pages connected to backend server logic\nEmbedded destination videos streamed externally\nError handling and validation for registration, login, search, and list operations"
+      ],
+      "stack": [
+        "Node.js · Express.js · JavaScript · EJS · MongoDB · Express-Session · HTML/CSS"
+      ],
+      "featured": false,
+      "images": [
+        "assets/uploads/1787108557778-whatsapp-image-2026-08-19-at-6-02-40-am.jpg"
+      ],
+      "links": {
+        "github": "",
+        "live": ""
+      }
+    },
+    {
+      "id": "operating-system-simulator",
+      "title": "Operating System Simulator",
+      "path": "~/projects/operating-system-simulator",
+      "year": "2026 · 6th Semester",
+      "tagline": "Java-based operating system simulator implementing process scheduling, memory management, synchronization, and system calls.",
+      "summary": "Developed a simulated operating system in Java that interprets and executes programs while managing processes, memory, system calls, mutex synchronization, scheduling, and disk swapping. Implemented HRRN and Round Robin scheduling alongside process state management and a real-time Java GUI for visualizing system execution.",
+      "description": [
+        "Built a program interpreter capable of parsing and executing custom OS instructions.\nImplemented process management using Process Control Blocks (PCBs) containing process state, program counter, process ID, and memory boundaries.\nDesigned a 40-word simulated memory with process-specific memory allocation and protection.\nImplemented disk swapping when available memory was insufficient, allowing processes to be unloaded and restored dynamically.\nDeveloped system calls for file I/O, user input/output, and memory read/write operations.\nImplemented mutex synchronization for shared file access, user input, and screen output using semWait and semSignal.\nImplemented HRRN non-preemptive scheduling and Round Robin preemptive scheduling with configurable time slices.\nImplemented Multi-Level Feedback Queue (MLFQ) scheduling as an additional feature.\nManaged Ready and Blocked queues and process state transitions.\nBuilt a Java GUI to visualize queues, memory, process execution, scheduling events, and disk swapping in real time."
+      ],
+      "stack": [
+        "Java · Operating Systems · Process Scheduling · Memory Management · Concurrency · Synchronization · System Calls · JavaFX / GUI"
+      ],
+      "featured": true,
+      "images": [
+        "assets/uploads/1787108768892-whatsapp-image-2026-08-19-at-6-06-09-am.jpg"
+      ],
+      "links": {
+        "github": "https://github.com/batoulabdelhamid/os",
+        "live": ""
+      }
+    },
+    {
+      "id": "pipelined-processor-simulator",
+      "title": "Pipelined Processor Simulator",
+      "path": "~/projects/pipelined-processor-simulator",
+      "year": "2026",
+      "tagline": "C-based processor simulator implementing instruction pipelines, registers, memory, branching, and data hazard handling.",
+      "summary": "Designed and implemented a fictional pipelined processor architecture in C, including instruction parsing, memory and register management, instruction execution, branching, pipeline control, and data hazard handling. Simulated clock-cycle execution and tracked pipeline stages, register updates, and memory changes throughout program execution.",
+      "description": [
+        "Designed a complete processor simulation with registers, program counter, instruction memory, and data memory.\nImplemented a custom Instruction Set Architecture (ISA) with binary instruction encoding and decoding.\nBuilt a pipelined datapath with Fetch, Decode, Execute, Memory, and Write Back stages.\nSimulated multiple instructions executing concurrently across pipeline stages.\nImplemented branch and jump instructions with pipeline flushing and control-hazard handling.\nImplemented data hazard handling using appropriate stalling/forwarding techniques.\nImplemented arithmetic and logical operations with carry, overflow, negative, sign, and zero flags.\nSimulated clock-cycle-level processor execution, tracking stage inputs, outputs, register updates, and memory changes.\nImplemented signed two's-complement arithmetic and appropriate 8/16/32-bit data representations.\nGenerated detailed execution traces showing pipeline state and final processor/memory contents."
+      ],
+      "stack": [
+        "C · Computer Architecture · Pipelining · Custom ISA · Assembly · CPU Simulation · Memory Management · Hazard Handling"
+      ],
+      "featured": false,
+      "images": [],
+      "links": {
+        "github": "",
+        "live": ""
+      }
+    },
+    {
+      "id": "guc-project-portfoliox-linkdin-platform",
+      "title": "GUC Project PortfolioX Linkdin Platform",
+      "path": "~/projects/guc-project-portfoliox-linkdin-platform",
+      "year": "2026 · 6th Semester",
+      "tagline": "A centralized platform for showcasing, discovering, and collaborating on GUC student projects.",
+      "summary": "A React-based portfolio platform designed to bring GUC student projects into one structured space. Students can showcase projects and portfolios while instructors, peers, and employers can discover and explore academic work.",
+      "description": [
+        "Developed a Project Portfolio Web Platform for GUC students as part of the Software Engineering course. The platform aims to provide a centralized space where students can showcase academic projects, build portfolios, collaborate with teammates, and make their work discoverable to peers, instructors, and potential employers.",
+        "Milestone 1 focused on Requirements Engineering, where the system requirements were analyzed and documented as 100 functional user stories covering students, instructors, employers, and administrators, alongside 10 non-functional requirements. The requirements were structured to be clear, measurable, testable, traceable, and aligned with the identified stakeholder needs.",
+        "Milestone 2 focused on frontend design and development using React. A functional frontend prototype was developed without a backend or database, using hard-coded dummy data to simulate system information. The interface covered project discovery, search and filtering, student portfolios, project management, collaboration, feedback, notifications, and other core platform functionality.",
+        "The project emphasized usability, responsiveness, consistency, navigation, learnability, and professional UI/UX design while following software engineering and requirements engineering principles.\nMS1: Requirements Engineering — 100 functional user stories + 10 NFRs\nMS2: React Frontend Prototype — UI/UX + dummy data\nAssignment: Class Diagram + Design Patterns"
+      ],
+      "stack": [
+        "React",
+        "JavaScript",
+        "HTML",
+        "CSS",
+        "Git",
+        "GitHub"
+      ],
+      "featured": true,
+      "images": [
+        "assets/uploads/1787109135304-whatsapp-image-2026-08-19-at-6-09-42-am.jpg"
+      ],
+      "links": {
+        "github": "https://github.com/Software-Engineering-Spring-2026/Ukraine-Project",
+        "live": ""
+      }
+    },
+    {
+      "id": "data-bases-ii-dbms-implementation",
+      "title": "Data Bases II — DBMS Implementation",
+      "path": "~/projects/data-bases-ii-dbms-implementation",
+      "year": "2026 · 6th Semester",
+      "tagline": "A Java-based database management system implementing storage, querying, bitmap indexing, tracing, and data recovery.",
+      "summary": "Implemented core DBMS functionality from scratch in Java, including table creation, page-based storage, record insertion and selection, bitmap indexing, operation tracing, and page-level data recovery.",
+      "description": [
+        "Developed a database management system in Java as part of the German University in Cairo's Data Bases II course, focusing on understanding and implementing core DBMS components and their behavior.",
+        "The first milestone implemented table creation, record insertion, page-based storage, multiple forms of record selection, direct record access through page and record pointers, and operation tracing. The system serializes table metadata and pages to disk and maintains detailed execution traces for database operations.",
+        "The second milestone extended the DBMS with bitmap indexing and indexed selection. Bitmap indexes can be created for specific columns, automatically updated when new records are inserted, and used to optimize conditional queries through combinations of indexed and non-indexed conditions.",
+        "The project also implements page-level data validation and recovery. The system can detect missing pages, identify lost records, and restore the missing pages and records to their original locations while maintaining the database trace.",
+        "The project provided practical experience with database storage architecture, serialization, page management, indexing, query processing, data recovery, and performance-oriented database operations."
+      ],
+      "stack": [
+        "Java",
+        "File I/O",
+        "Object Serialization",
+        "DBMS",
+        "Bitmap Indexing",
+        "Unit Testing"
+      ],
+      "featured": false,
+      "images": [],
+      "links": {
+        "github": "",
+        "live": ""
+      }
+    },
+    {
+      "id": "microsoft-sprints-heart-disease-prediction-project",
+      "title": "Microsoft × Sprints — Heart Disease Prediction Project",
+      "path": "~/projects/microsoft-sprints-heart-disease-prediction-project",
+      "year": "2025",
+      "tagline": "End-to-end machine learning for heart disease risk prediction",
+      "summary": "Built an end-to-end machine learning pipeline for heart disease prediction, combining data preprocessing, multiple classification models, and probabilistic risk analysis.",
+      "description": [
+        "Full description\nDeveloped a complete machine learning pipeline for predicting heart disease risk, covering data preprocessing, feature selection, model training, evaluation, and visualization.",
+        "Implemented and compared Logistic Regression, Random Forest, Support Vector Machine (SVM), and K-Means models using Python and Scikit-learn to explore different approaches to cardiovascular risk prediction.",
+        "Extended the project with probabilistic risk prediction using PyMC and NUTS sampling, providing a Bayesian approach to estimating individual risk.",
+        "Used Pandas and NumPy for data processing and analysis, Matplotlib for visualization, and Scikit-learn and PyMC for machine learning and probabilistic modeling.",
+        "Completed as part of the Microsoft × Sprints 2025 program."
+      ],
+      "stack": [
+        "Python",
+        "Pandas",
+        "NumPy",
+        "Scikit-learn",
+        "Matplotlib",
+        "PyMC",
+        "Machine Learning"
+      ],
+      "featured": true,
+      "images": [],
+      "links": {
+        "github": "https://github.com/iyadkhattab/Heart-Disease-Project-Pipeline-",
+        "live": ""
+      }
+    },
+    {
+      "id": "microsoft-sprints-supermarket-shopping-app",
+      "title": "Microsoft × Sprints — Supermarket Shopping App",
+      "path": "~/projects/microsoft-sprints-supermarket-shopping-app",
+      "year": "2025",
+      "tagline": "Cross-platform supermarket shopping application built with Flutter and Firebase",
+      "summary": "Built a fully functional cross-platform shopping app with product browsing, search, filtering, and cart management using Flutter and Dart.",
+      "description": [
+        "Developed a cross-platform supermarket shopping application for Android and iOS as part of the Microsoft × Sprints 2025 program.",
+        "Implemented core shopping features including product listings, product search, filtering, and cart management to provide a complete shopping experience.",
+        "Built the application using Flutter and Dart, with Firebase used for backend and data integration.",
+        "Applied UI/UX principles and clean code practices to create a structured, responsive, and maintainable mobile application.",
+        "Used Android Studio and Git throughout the development process for implementation, testing, and version control."
+      ],
+      "stack": [
+        "Flutter",
+        "Dart",
+        "Firebase",
+        "Android Studio",
+        "Git",
+        "Mobile Development"
+      ],
+      "featured": true,
+      "images": [
+        "assets/uploads/1787110159830-whatsapp-image-2026-08-19-at-6-29-03-am-1.jpg",
+        "assets/uploads/1787110159837-whatsapp-image-2026-08-19-at-6-29-03-am-2.jpg",
+        "assets/uploads/1787110159843-whatsapp-image-2026-08-19-at-6-29-03-am.jpg"
+      ],
+      "links": {
+        "github": "https://github.com/iyadkhattab/flutter-supermarket-app",
+        "live": ""
+      }
+    }
+  ],
+  "experience": [
+    {
+      "id": "exp-guc-2025",
+      "year": "2025",
+      "org": "German University in Cairo (GUC)",
+      "role": "Junior Teaching Assistant — CS1 (Python) & CS2 (Java)",
+      "description": "Conducted programming lab sessions and supported students in Python and Java, covering object-oriented programming, algorithms, debugging, and problem solving. Guided students through programming assignments and technical challenges, strengthening their understanding of data structures, algorithms, and software development principles. Facilitated technical discussions and provided hands-on assistance with debugging and implementation."
+    },
+    {
+      "id": "exp-cib-2025",
+      "year": "2025",
+      "org": "Commercial International Bank (CIB)",
+      "role": "CIB Future Vest Internship — The Green Leap",
+      "description": "Selected competitively for CIB's flagship sustainable finance program focused on ESG principles. Received SAS training in advanced data analytics, AI tools, and agentic AI systems for ESG reporting. Earned a completion certificate after successfully completing the online exam and daily assignments."
+    },
+    {
+      "id": "exp-ieee-guc-2024",
+      "year": "2024",
+      "org": "IEEE GUC",
+      "role": "Marketing Committee Member",
+      "description": "Supported digital marketing campaigns and promotional activities for technical workshops, student events, and engineering initiatives."
+    },
+    {
+      "id": "exp-canon-medical-equipment-center-2024",
+      "year": "2024",
+      "org": "Canon Medical Equipment Center",
+      "role": "Intern",
+      "description": "Gained hands-on experience with X-ray and ultrasound equipment. Supported technical staff in identifying equipment issues and understanding system operation."
+    }
+  ],
+  "skills": [
+    {
+      "group": "Languages",
+      "items": [
+        "Python",
+        "Java",
+        "C",
+        "JavaScript",
+        "SQL",
+        "Dart",
+        "VHDL"
+      ]
+    },
+    {
+      "group": "Frameworks",
+      "items": [
+        "Flutter",
+        "FastAPI",
+        "Node.js",
+        "Streamlit",
+        "Firebase"
+      ]
+    },
+    {
+      "group": "AI / Data",
+      "items": [
+        "Pandas",
+        "NumPy",
+        "Scikit-learn",
+        "Matplotlib",
+        "PyMC",
+        "Machine Learning"
+      ]
+    },
+    {
+      "group": "Databases",
+      "items": [
+        "SQL",
+        "MongoDB",
+        "SQLAlchemy"
+      ]
+    },
+    {
+      "group": "Testing & QA",
+      "items": [
+        "Unit Testing",
+        "JUnit",
+        "Test Automation",
+        "Debugging"
+      ]
+    },
+    {
+      "group": "Tools",
+      "items": [
+        "Git",
+        "GitHub",
+        "SAS Viya",
+        "Android Studio",
+        "VS Code",
+        "ModelSim"
+      ]
+    },
+    {
+      "group": "Computer Science",
+      "items": [
+        "Object-Oriented Programming",
+        "Data Structures & Algorithms",
+        "Software Engineering",
+        "Operating Systems",
+        "Computer Networks"
+      ]
+    }
+  ]
+}

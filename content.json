@@ -433,6 +433,44 @@
         "github": "https://github.com/iyadkhattab/flutter-supermarket-app",
         "live": ""
       }
+    },
+    {
+      "id": "mailwise-ai",
+      "title": "Mailwise AI",
+      "path": "~/projects/mailwise-ai",
+      "year": "2026",
+      "tagline": "An AI-powered assistant for a smarter inbox.",
+      "summary": "A full-stack AI email assistant that connects to Gmail to classify, summarize, prioritize, and generate context-aware reply suggestions.",
+      "description": [
+        "Mailwise AI is a full-stack AI email assistant designed to make managing a busy inbox faster and more intelligent. It connects to Gmail through the Gmail API and Google OAuth 2.0, retrieves email content, and uses AI to help users understand, organize, and respond to their messages.",
+        "The system can classify emails, generate concise summaries, identify important messages, and create context-aware reply suggestions. It separates the frontend, backend, authentication, Gmail integration, AI services, database, and business logic into modular components.",
+        "The backend is built with FastAPI, Pydantic, and SQLAlchemy, while the interactive frontend is built with Streamlit. The AI layer uses Gemini and follows a configurable provider architecture, allowing different AI providers to be integrated without changing the core application.",
+        "The project also includes automated backend testing with Pytest and uses environment-based configuration to keep API keys and authentication credentials separate from the application code."
+      ],
+      "stack": [
+        "Python",
+        "FastAPI",
+        "Streamlit",
+        "Gmail API",
+        "Google OAuth 2.0",
+        "Gemini",
+        "SQLAlchemy",
+        "Pydantic",
+        "SQLite",
+        "Pytest"
+      ],
+      "featured": true,
+      "images": [
+        "assets/uploads/1787269189617-screenshot-2026-08-21-023443.png",
+        "assets/uploads/1787269189630-screenshot-2026-08-21-023450.png",
+        "assets/uploads/1787269189640-screenshot-2026-08-21-023512.png",
+        "assets/uploads/1787269189651-screenshot-2026-08-21-023519.png",
+        "assets/uploads/1787269189662-screenshot-2026-08-21-023531.png"
+      ],
+      "links": {
+        "github": "https://github.com/iyadkhattab/ai-email-assistant",
+        "live": ""
+      }
     }
   ],
   "experience": [
